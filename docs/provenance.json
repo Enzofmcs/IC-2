@@ -1,0 +1,202 @@
+[
+  {
+    "source_id": "A12",
+    "archive": "Colab Notebooks-20261025T212334Z-1-001.zip",
+    "original_path": "Colab Notebooks/002-analisedataset.ipynb",
+    "original_sha256": "7b04de55d3caa9d7e8633131e28ccaf823ab38cae617b2fdb04e1fd24708f1f1",
+    "original_source_sha256": "b0db23c7986bce4c7536e014edddedf642af085251e77ab4c31a13635a95f668",
+    "destination": "notebooks/historical/01_ham10000_exploration.ipynb",
+    "purpose": "Exploração das classes, idade, sexo e localização no HAM10000.",
+    "limitations": "Metadados externos necessários; várias visualizações alternativas.",
+    "saved_errors": []
+  },
+  {
+    "source_id": "A08",
+    "archive": "Colab Notebooks-20261025T212334Z-1-001.zip",
+    "original_path": "Colab Notebooks/003_dataaugmentation.ipynb",
+    "original_sha256": "91320666aee010943dffb27a9b1ad0df23132f209ce9ceec6ad2478fd9ccbcac",
+    "original_source_sha256": "4de657ff6e73ed8ff9790eb8a4fbf8c7fca3c23382947411b4f527ff79e164b3",
+    "destination": "notebooks/historical/02_preparation_attempt.ipynb",
+    "purpose": "Seleção de imagens de melanoma e tentativa de preparação.",
+    "limitations": "Erro salvo: customDataset não disponível; apesar do nome, não implementa aumento de dados.",
+    "saved_errors": [
+      {
+        "cell": 1,
+        "name": "ModuleNotFoundError",
+        "message": "No module named 'customDataset'"
+      }
+    ]
+  },
+  {
+    "source_id": "C02",
+    "archive": "Colab Notebooks-20261025T212215Z-1-001.zip",
+    "original_path": "Colab Notebooks/MobileNetTraining_01.ipynb",
+    "original_sha256": "c5005b81599a0e3e07151bd425f12947fe750965b083e51942334e19f5d5215b",
+    "original_source_sha256": "e6c7defca656cbcabbf5ab363f6bb61e817d9fd011e27d418a21a3860e06051c",
+    "destination": "notebooks/historical/03_mobilenet_training.ipynb",
+    "purpose": "MobileNetV3-Large com duas saídas e fine-tuning parcial.",
+    "limitations": "BCELoss incompatível com logits de duas saídas e alvos escalares; não há treino completo salvo. Não usar como reprodução do checkpoint avaliado em Summary.",
+    "saved_errors": []
+  },
+  {
+    "source_id": "C00",
+    "archive": "Colab Notebooks-20261025T212215Z-1-001.zip",
+    "original_path": "Colab Notebooks/MobileNetTraining_02.ipynb",
+    "original_sha256": "dafa2c8f436d332fbe4bc10baa685587e5a770a833d58739115dc4bdf3d05520",
+    "original_source_sha256": "66589f30484bb192f9a9ecb4c812fb4b0550410fc2f9b1aa6b6c8fea6cb1e8a7",
+    "destination": "notebooks/historical/04_mobilenet_onnx.ipynb",
+    "purpose": "Tentativa de exportação de checkpoint MobileNet para ONNX.",
+    "limitations": "Checkpoint ausente; configuração de exportação precisa ser validada. Nenhum ONNX foi incluído no material.",
+    "saved_errors": []
+  },
+  {
+    "source_id": "C67",
+    "archive": "Colab Notebooks-20261025T212215Z-1-001.zip",
+    "original_path": "Colab Notebooks/notebook_reorganizado.ipynb",
+    "original_sha256": "840041511835360f4261fb5412edd5dcb669406635cc4c9ccce265f143469b11",
+    "original_source_sha256": "9184a944dece27635c5912599379a54f8e1ae62b6707e34f12e904716c4d46a5",
+    "destination": "notebooks/historical/05_efficientnet_baseline.ipynb",
+    "purpose": "EfficientNet-B0 com uma saída, BCEWithLogitsLoss e 10 épocas.",
+    "limitations": "Registra avaliação e erro na previsão de amostras; média de acurácia por lote difere da agregação global.",
+    "saved_errors": [
+      {
+        "cell": 31,
+        "name": "IndexError",
+        "message": "Dimension out of range (expected to be in range of [-1, 0], but got 1)"
+      }
+    ]
+  },
+  {
+    "source_id": "C65",
+    "archive": "Colab Notebooks-20261025T212215Z-1-001.zip",
+    "original_path": "Colab Notebooks/notebook_otimizado.ipynb",
+    "original_sha256": "ed50940fcdc5a7f03329755cce72099304b1a5e4a26ab8438b23d189e6f8e3dd",
+    "original_source_sha256": "a452dcaaaf28874cae42cb3936b2c5cc96c2e5780d4feaddaa930a6823a71f34",
+    "destination": "notebooks/historical/06_efficientnet_f1.ipynb",
+    "purpose": "EfficientNet-B0 com peso positivo e seleção por F1 de melanoma.",
+    "limitations": "Caminhos conflitantes no mesmo notebook; resumo diz 50 épocas, log para antes. Resultado histórico não reproduzido.",
+    "saved_errors": []
+  },
+  {
+    "source_id": "C57",
+    "archive": "Colab Notebooks-20261025T212215Z-1-001.zip",
+    "original_path": "Colab Notebooks/Vgg-16_Training_1.ipynb",
+    "original_sha256": "95f186a5e60292273881171371310f3b24e386ecec2066cbfc94dc03a0abb4b5",
+    "original_source_sha256": "ccf99a82a01eb86d90d1fef35397dd7f153e50ff06cc2a94e0f17a076911b39c",
+    "destination": "notebooks/historical/07_vgg16_training.ipynb",
+    "purpose": "VGG16 com duas saídas, label smoothing, sampler e early stopping.",
+    "limitations": "Congelamento indexa parâmetros, não blocos; métricas por lote e relatório global divergem.",
+    "saved_errors": []
+  },
+  {
+    "source_id": "C13",
+    "archive": "Colab Notebooks-20261025T212215Z-1-001.zip",
+    "original_path": "Colab Notebooks/Untitled22.ipynb",
+    "original_sha256": "dfebebb2796107cfd3d5dd06c1f8b3b817d71e57fc1511ce2e1e1e0b54b1cc06",
+    "original_source_sha256": "17497e0b86df49d9cee052eb5b52be6461dc0fef8da908aa6d69ff00d9c70b6d",
+    "destination": "notebooks/historical/08_weighted_focal.ipynb",
+    "purpose": "EfficientNet com sampler ponderado e Focal Loss.",
+    "limitations": "Variação metodológica; sem resultado final salvo que permita afirmar superioridade.",
+    "saved_errors": []
+  },
+  {
+    "source_id": "C07",
+    "archive": "Colab Notebooks-20261025T212215Z-1-001.zip",
+    "original_path": "Colab Notebooks/Untitled23.ipynb",
+    "original_sha256": "c2a294b43fb02342e35c4d057e4262109ff9a432e55da04c4dea1ebf2c8b6dd9",
+    "original_source_sha256": "695ffec330d5f5421aa3bb75d589fb3dfd470d9ae2f0ef51877b9248c6a6054a",
+    "destination": "notebooks/historical/09_focal_mixup.ipynb",
+    "purpose": "EfficientNet com Focal Loss, MixUp, OneCycleLR e busca de limiar.",
+    "limitations": "Split estratificado por imagem; independência por lesão não demonstrada; logs de falha de multiprocessamento.",
+    "saved_errors": []
+  },
+  {
+    "source_id": "C52",
+    "archive": "Colab Notebooks-20261025T212215Z-1-001.zip",
+    "original_path": "Colab Notebooks/Untitled24.ipynb",
+    "original_sha256": "2e6efa1b926adc4e8a9586fda2886407289fc8e6af4dcd2c1a194bef601c6b8b",
+    "original_source_sha256": "d41f010a77a4b079052d86a7c8ab340f74deec363b9a091b0009b8c4bd5d36ca",
+    "destination": "notebooks/historical/10_partial_finetuning.ipynb",
+    "purpose": "EfficientNet com descongelamento parcial e até 150 épocas.",
+    "limitations": "Treino interrompido, mas há saída de teste; pos_weight e mapeamento precisam de revisão.",
+    "saved_errors": [
+      {
+        "cell": 10,
+        "name": "KeyboardInterrupt",
+        "message": ""
+      }
+    ]
+  },
+  {
+    "source_id": "C53",
+    "archive": "Colab Notebooks-20261025T212215Z-1-001.zip",
+    "original_path": "Colab Notebooks/melanoma_classifier_efficientnet.ipynb",
+    "original_sha256": "329e42d7781cf0070c42e8f27a8c76e7a4b4ca3410b5bf98b169b4d7dc98de26",
+    "original_source_sha256": "0ada01bb5ed0144acca3ac45de9544ed0c4e1bc6544923710c37a66005fe6b5f",
+    "destination": "notebooks/historical/11_oversampling_initial.ipynb",
+    "purpose": "Tentativa de oversampling com separação por metadados.",
+    "limitations": "Erro salvo de conjunto vazio; procura imagens na raiz, enquanto a estrutura baixada usa subpastas.",
+    "saved_errors": [
+      {
+        "cell": 7,
+        "name": "ValueError",
+        "message": "With n_samples=0, test_size=0.2 and train_size=None, the resulting train set will be empty. Adjust any of the aforementioned parameters."
+      }
+    ]
+  },
+  {
+    "source_id": "C29",
+    "archive": "Colab Notebooks-20261025T212215Z-1-001.zip",
+    "original_path": "Colab Notebooks/Untitled25.ipynb",
+    "original_sha256": "81117ddb84baec0f448544baa53e1fa612ff92951a39b0f6de5fffa2fa1ef53c",
+    "original_source_sha256": "b9a1d7bc319eacf0efe5458cc68ad719a421db7697a28788737bd4272ef8ced3",
+    "destination": "notebooks/historical/12_oversampling_revision.ipynb",
+    "purpose": "Revisão com busca recursiva de imagens e uma saída binária.",
+    "limitations": "Mantém outras inconsistências; a busca recursiva diferencia esta versão de C53. Não declarar resultado final sem reexecutar.",
+    "saved_errors": [
+      {
+        "cell": 11,
+        "name": "KeyboardInterrupt",
+        "message": ""
+      }
+    ]
+  },
+  {
+    "source_id": "C51",
+    "archive": "Colab Notebooks-20261025T212215Z-1-001.zip",
+    "original_path": "Colab Notebooks/Summary.ipynb",
+    "original_sha256": "9bbbe018ae94eb18c3b32a7fee96c76cac14bb5a1ee6953455f1cfdb2867301b",
+    "original_source_sha256": "b5bd202a8232ee4c77353b2cc39841987cc2d5efcd45387171a1342550b096dd",
+    "destination": "notebooks/historical/13_checkpoint_comparison.ipynb",
+    "purpose": "Avaliação de checkpoints com AUC, sensibilidade, especificidade e limiar.",
+    "limitations": "Resumo narrativo contradiz saída MobileNet; células dependem de variáveis anteriores e checkpoints ausentes.",
+    "saved_errors": [
+      {
+        "cell": 3,
+        "name": "KeyboardInterrupt",
+        "message": ""
+      },
+      {
+        "cell": 5,
+        "name": "NameError",
+        "message": "name 'create_model' is not defined"
+      },
+      {
+        "cell": 8,
+        "name": "NameError",
+        "message": "name 'models' is not defined"
+      }
+    ]
+  },
+  {
+    "source_id": "C56",
+    "archive": "Colab Notebooks-20261025T212215Z-1-001.zip",
+    "original_path": "Colab Notebooks/Cópia de DermAI_Melanoma_Classification.ipynb",
+    "original_sha256": "bed0602d526ffdd353cfa553a155c6879dc33cbb197ec28fcd012ada77a160c4",
+    "original_source_sha256": "714b18c4c8bbe6f8f93132c22d55327ff3758587b8194ed73e7f6cb224305104",
+    "destination": "notebooks/historical/14_dermai_group_draft.ipynb",
+    "purpose": "Rascunho relacionado DermAI com contexto e funções de avaliação.",
+    "limitations": "Notebook identifica Enzo Souza, Vinicius Hardy e Angelo Pereira. Metas de AUC/latência/tamanho são objetivos, não resultados demonstrados.",
+    "saved_errors": []
+  }
+]
