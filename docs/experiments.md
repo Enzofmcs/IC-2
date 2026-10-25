@@ -53,3 +53,7 @@ O pacote usa seed e configuração determinística do cuDNN, mas não promete ig
 ## Limites desta entrega
 
 Validaram-se a estrutura dos notebooks, as funções de manifesto/métricas e as demonstrações sintéticas. O treinamento foi inspecionado e compilado, mas não executado: este ambiente não contém PyTorch, as imagens ou os checkpoints. Não se afirma desempenho de generalização, utilidade diagnóstica, latência ou tamanho de modelo implantado.
+
+## Complementação pelo relatório final
+
+O relatório final foi recebido após a primeira curadoria. Ele confirma que a comparação principal é VGG16 × MobileNetV3 e concorda com os outputs de C51 (células 28 e 22). A tabela histórica acima mantém outros ensaios apenas como contexto e não deve ser usada como ranking conjunto. Consulte [conferência do relatório](report_review.md) e [resultados estruturados](../results/final_report_results.json).

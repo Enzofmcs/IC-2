@@ -1,0 +1,96 @@
+{
+  "status": "reported_metrics_cross_checked_against_saved_notebook_outputs",
+  "source": {
+    "name": "_Relatório_Final_2025__Enzo_Fabricio-5.pdf",
+    "sha256": "352ddb8b3b79af76af691b9f444343418597c1e0d2c2392d12820cae5b3776f7",
+    "bytes": 893874
+  },
+  "report_title": "Estudo e Implementação de um Classificador de Lesão de Pele Utilizando a Arquitetura de Redes Neurais Convolucionais",
+  "reported_period": "September 2024 to August 2025",
+  "supervisor": "Ademar Takeo Akabane",
+  "partition_source": {
+    "pdf_page": 7,
+    "printed_page": 5,
+    "table": "4.1"
+  },
+  "partitions": [
+    {
+      "split": "train",
+      "total": 7772,
+      "negative": 3931,
+      "positive": 3841
+    },
+    {
+      "split": "val",
+      "total": 2511,
+      "negative": 1282,
+      "positive": 1229
+    },
+    {
+      "split": "test",
+      "total": 1788,
+      "negative": 899,
+      "positive": 889
+    }
+  ],
+  "positive_class": "mel",
+  "negative_class": "non_melanoma",
+  "models": [
+    {
+      "name": "VGG16",
+      "report_pdf_page": 10,
+      "report_printed_page": 8,
+      "notebook_source": "C51",
+      "notebook_cell_1based": 28,
+      "confusion_counts": {
+        "tn": 804,
+        "fp": 95,
+        "fn": 80,
+        "tp": 809
+      },
+      "reported_percentages": {
+        "accuracy_percent": 90.21,
+        "sensitivity_percent": 91.0,
+        "specificity_percent": 89.43,
+        "precision_percent": 89.49,
+        "npv_percent": 90.95
+      },
+      "roc_auc_reported": 0.962,
+      "roc_auc_notebook": 0.9615,
+      "average_precision_reported_as_pr_auc": 0.947,
+      "average_precision_notebook": 0.9467,
+      "threshold_notebook": 0.4277
+    },
+    {
+      "name": "MobileNetV3-Large",
+      "report_pdf_page": 11,
+      "report_printed_page": 9,
+      "notebook_source": "C51",
+      "notebook_cell_1based": 22,
+      "confusion_counts": {
+        "tn": 822,
+        "fp": 77,
+        "fn": 122,
+        "tp": 767
+      },
+      "reported_percentages": {
+        "accuracy_percent": 88.87,
+        "sensitivity_percent": 86.28,
+        "specificity_percent": 91.43,
+        "precision_percent": 90.88,
+        "npv_percent": 87.08
+      },
+      "roc_auc_reported": 0.96,
+      "roc_auc_notebook": 0.9604,
+      "average_precision_reported_as_pr_auc": 0.963,
+      "average_precision_notebook": 0.9625,
+      "threshold_notebook": 0.5074
+    }
+  ],
+  "limits": [
+    "AUC e AP são reportadas; sem probabilidades individuais não foram recalculadas.",
+    "Percentuais discretos podem ser conferidos a partir das matrizes de confusão.",
+    "Não se comprovou independência por lesão/paciente a partir das contagens.",
+    "Checkpoints e imagens não foram fornecidos; os modelos não foram executados."
+  ]
+}
