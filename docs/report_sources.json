@@ -1,0 +1,33 @@
+{
+  "source": {
+    "name": "_Relatório_Final_2025__Enzo_Fabricio-5.pdf",
+    "sha256": "352ddb8b3b79af76af691b9f444343418597c1e0d2c2392d12820cae5b3776f7",
+    "bytes": 893874
+  },
+  "evidence_locations": {
+    "objective": {
+      "pdf_page": 4,
+      "printed_page": 2
+    },
+    "period": {
+      "pdf_page": 1
+    },
+    "poster_presentation": {
+      "pdf_page": 6,
+      "printed_page": 4
+    },
+    "partitions": {
+      "pdf_page": 7,
+      "printed_page": 5
+    },
+    "VGG16": {
+      "pdf_page": 10,
+      "printed_page": 8
+    },
+    "MobileNetV3": {
+      "pdf_page": 11,
+      "printed_page": 9
+    }
+  },
+  "note": "Resumo técnico com referências de páginas; o PDF integral com dados pessoais da capa não é redistribuído."
+}
