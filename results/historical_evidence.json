@@ -1,0 +1,169 @@
+[
+  {
+    "source_id": "C51",
+    "original_cell_1based": 10,
+    "evidence_type": "saved_output_not_reexecuted",
+    "lines": [
+      "Accuracy: 90.21% | Balanced Acc: 90.22%",
+      "ROC-AUC: 0.962 | PR-AUC (mel): 0.947",
+      "Sensitivity (mel): 91.00% | Specificity: 89.43%",
+      "PPV: 89.49% | NPV: 90.95%",
+      "MCC: 0.804 | Cohen's κ: 0.804 | Brier: 0.0757",
+      "TN=804  FP=95",
+      "FN=80  TP=809"
+    ]
+  },
+  {
+    "source_id": "C51",
+    "original_cell_1based": 12,
+    "evidence_type": "saved_output_not_reexecuted",
+    "lines": [
+      "Dataset Size: Val=2511, Test=1788",
+      "Best Validation Accuracy (from history): 87.58%",
+      "Final Test Accuracy: 88.87%",
+      "ROC-AUC (Test): 0.960 | PR-AUC (mel): 0.963",
+      "Sensitivity (mel): 86.28% | Specificity: 91.43%",
+      "PPV: 90.88% | NPV: 87.08% | Balanced Acc: 88.86%",
+      "MCC: 0.778 | Brier: 0.0835 | Threshold*: 0.507"
+    ]
+  },
+  {
+    "source_id": "C51",
+    "original_cell_1based": 22,
+    "evidence_type": "saved_output_not_reexecuted",
+    "lines": [
+      "MobileNetV3_Accuracy: 0.8887",
+      "MobileNetV3_Balanced_Accuracy: 0.8886",
+      "MobileNetV3_ROC_AUC: 0.9604",
+      "MobileNetV3_PR_AUC: 0.9625",
+      "MobileNetV3_Sensitivity: 0.8628",
+      "MobileNetV3_Specificity: 0.9143",
+      "MobileNetV3_PPV: 0.9088",
+      "MobileNetV3_NPV: 0.8708",
+      "MobileNetV3_MCC: 0.7783",
+      "MobileNetV3_Cohen_Kappa: 0.7773",
+      "MobileNetV3_Brier_Loss: 0.0835",
+      "MobileNetV3_Optimal_Threshold: 0.5074"
+    ]
+  },
+  {
+    "source_id": "C51",
+    "original_cell_1based": 28,
+    "evidence_type": "saved_output_not_reexecuted",
+    "lines": [
+      "VGG16_Accuracy: 0.9021",
+      "VGG16_Balanced_Accuracy: 0.9022",
+      "VGG16_ROC_AUC: 0.9615",
+      "VGG16_PR_AUC: 0.9467",
+      "VGG16_Sensitivity: 0.9100",
+      "VGG16_Specificity: 0.8943",
+      "VGG16_PPV: 0.8949",
+      "VGG16_NPV: 0.9095",
+      "VGG16_MCC: 0.8044",
+      "VGG16_Cohen_Kappa: 0.8043",
+      "VGG16_Brier_Loss: 0.0757",
+      "VGG16_Optimal_Threshold: 0.4277"
+    ]
+  },
+  {
+    "source_id": "C57",
+    "original_cell_1based": 10,
+    "evidence_type": "saved_output_not_reexecuted",
+    "lines": [
+      "Test Loss: 0.3558 | Test Acc: 88.84%"
+    ]
+  },
+  {
+    "source_id": "C57",
+    "original_cell_1based": 12,
+    "evidence_type": "saved_output_not_reexecuted",
+    "lines": [
+      "Dataset Size: Train=7772, Val=2511, Test=1788",
+      "Epochs Trained: 31",
+      "Best Validation Accuracy: 88.73%",
+      "Final Test Accuracy: 88.84%"
+    ]
+  },
+  {
+    "source_id": "C65",
+    "original_cell_1based": 20,
+    "evidence_type": "saved_output_not_reexecuted",
+    "lines": [
+      "Dataset sizes - Train: 7772, Test: 1788, Val: 2511"
+    ]
+  },
+  {
+    "source_id": "C65",
+    "original_cell_1based": 30,
+    "evidence_type": "saved_output_not_reexecuted",
+    "lines": [
+      "Best Validation Accuracy: 90.47%",
+      "Best Validation F1 (melanoma): 0.9052"
+    ]
+  },
+  {
+    "source_id": "C65",
+    "original_cell_1based": 32,
+    "evidence_type": "saved_output_not_reexecuted",
+    "lines": [
+      "Test Loss: 0.2070",
+      "Test Accuracy: 91.29%"
+    ]
+  },
+  {
+    "source_id": "C65",
+    "original_cell_1based": 38,
+    "evidence_type": "saved_output_not_reexecuted",
+    "lines": [
+      "Dataset Size: Train=7772, Val=2511, Test=1788",
+      "Epochs Trained: 50",
+      "Best Validation F1-Score (Melanoma): 0.91",
+      "Final Test Accuracy: 91.29%"
+    ]
+  },
+  {
+    "source_id": "C67",
+    "original_cell_1based": 15,
+    "evidence_type": "saved_output_not_reexecuted",
+    "lines": [
+      "Dataset sizes - Train: 7772, Test: 1788, Val: 2511"
+    ]
+  },
+  {
+    "source_id": "C67",
+    "original_cell_1based": 25,
+    "evidence_type": "saved_output_not_reexecuted",
+    "lines": [
+      "Best Validation Accuracy: 90.0659"
+    ]
+  },
+  {
+    "source_id": "C67",
+    "original_cell_1based": 27,
+    "evidence_type": "saved_output_not_reexecuted",
+    "lines": [
+      "Test Loss: 0.5512",
+      "Test Accuracy: 91.3664"
+    ]
+  },
+  {
+    "source_id": "C67",
+    "original_cell_1based": 33,
+    "evidence_type": "saved_output_not_reexecuted",
+    "lines": [
+      "Dataset Size: Train=7772, Val=2511, Test=1788",
+      "Epochs Trained: 10",
+      "Best Validation Accuracy: 90.07%",
+      "Final Test Accuracy: 91.37%"
+    ]
+  },
+  {
+    "source_id": "C52",
+    "original_cell_1based": 11,
+    "evidence_type": "saved_output_not_reexecuted",
+    "lines": [
+      "Test Loss: 0.4841",
+      "Test Accuracy: 91.89%"
+    ]
+  }
+]
